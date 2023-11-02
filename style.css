@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1b2a41;
+  min-height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  place-content: center;
+}
+button {
+  cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  border: 0;
+  border-radius: 4px;
+}
+.container {
+  max-width: 350px;
+  color: white;
+  align-items: center;
+}
+.top-half {
+  background-color: #0c1821;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottom-half {
+background-color:  #08141d;
+padding: 1rem;
+
+}
+.open {
+  background-color: #f3bb0b;
+  color: black;
+  padding: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  border-radius: 4px;
+  align-self: flex-start;
+}
+.user-picture {
+    margin-top: 20px;
+}
+.user-picture img {
+  width: 90px;
+  height: 90px;
+  padding: 0.25rem;
+  border-radius: 50%;
+  outline: 1px solid #03bfcb;
+}
+.message a {
+    text-decoration: none;
+    color: white;
+}
+.user-info .name{
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.user-info .location {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+.user-info .description {
+  max-width: 30ch;
+  margin: 0.5rem 0;
+  font-size: 0.85rem;
+}
+.buttons-container {
+    margin-bottom: 1rem;
+    margin-top: 10px;
+
+}
+.message {
+    background-color: #03bfcb;
+    color: white;
+}
+.following {
+    background-color: transparent;
+    color: #03bfcb;
+    outline: 1px solid #03bfcb;
+}
+.skills-container {
+    width: 70%;
+}
+.skills-container .skills-header {
+margin-bottom: .5rem;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+.skills > * {
+    padding: .25rem;
+    font-size: .75rem;
+    outline: 1px solid white;
+}
